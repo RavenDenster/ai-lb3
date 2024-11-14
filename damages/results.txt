@@ -1,0 +1,5 @@
+Too few neurons.  Test accuracy: 0.7026000022888184
+Added noise to the sample.  Test accuracy: 0.703499972820282
+Incorrect optimazation parameters according to Adam.  Test accuracy: 0.11349999904632568
+Few epochs and big batch_size.  Test accuracy: 0.544700026512146
+Many layers with a large dropout.  Test accuracy: 0.25540000200271606
