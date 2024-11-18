@@ -50,3 +50,8 @@ model.fit(X_train, Y_train, batch_size=128, epochs=5, verbose=1)
 score = model.evaluate(X_test, Y_test)
 print('Test score:', score[0])
 print('Test accuracy:', score[1])
+
+filename = 'results.txt'
+with open(filename, 'a') as f:
+    f.write(f'Original version.  ')
+    f.write(f'Test accuracy: {score[1]}\n')
